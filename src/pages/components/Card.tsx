@@ -53,7 +53,7 @@ export default function Card({
       onSubmit={handleSubmit}
     >
       <fieldset>
-        {permissions.map((permission) => (
+        {permissions?.map((permission) => (
           <div
             key={permission.id}
             className="grid grid-cols-2 m-2 justify-items-center"

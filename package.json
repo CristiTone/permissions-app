@@ -1,5 +1,5 @@
 {
-  "name": "siemens-app",
+  "name": "permissions-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,13 +13,19 @@
     "@types/react": "18.2.4",
     "@types/react-dom": "18.2.3",
     "autoprefixer": "10.4.14",
+    "csstype": "^3.1.2",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
     "next": "13.3.4",
+    "nprogress": "^0.2.0",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.0"
   }
 }
